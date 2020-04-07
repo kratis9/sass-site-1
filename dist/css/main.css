@@ -4,6 +4,16 @@
   margin: auto;
   overflow: hidden; }
 
+.btn-main {
+  display: inline-block;
+  padding: 0.8rem 2rem;
+  transition: all 0.5s;
+  border: none;
+  cursor: pointer; }
+
+.btn-main {
+  color: #333; }
+
 * {
   margin: 0;
   padding: 0; }
@@ -61,3 +71,6 @@ img {
   #header-home .header-content {
     text-align: center;
     padding-top: 20%; }
+    #header-home .header-content h1 {
+      font-size: 4rem;
+      line-height: 1.2; }
