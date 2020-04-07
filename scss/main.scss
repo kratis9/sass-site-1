@@ -65,9 +65,11 @@ img {
     &:hover {
       border-color: $medium-color;
     }
-  }
-}
 
+    &:current {
+      border-color: $main-color;
+    }
+  } 
 // Header
 #header {
   &-home {
