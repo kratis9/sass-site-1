@@ -45,6 +45,14 @@ img {
   display: flex;
   justify-content: space-between;
   padding-top: 1rem;
+
+  ul {
+    display: flex;
+  }
+
+  li {
+    padding: 1rem 1.5rem;
+  }
 }
 
 // Header
