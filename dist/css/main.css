@@ -196,3 +196,12 @@ img {
       line-height: 90px; }
       #home-c .process-icon:hover .process-step {
         background: #333; }
+
+#main-footer {
+  background: #333;
+  color: #fff;
+  height: 5rem; }
+  #main-footer .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 5rem; }
