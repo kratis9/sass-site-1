@@ -194,3 +194,5 @@ img {
       width: 90px;
       height: 90px;
       line-height: 90px; }
+      #home-c .process-icon:hover .process-step {
+        background: #333; }
