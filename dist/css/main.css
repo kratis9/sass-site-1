@@ -204,4 +204,14 @@ img {
   #main-footer .footer-content {
     display: flex;
     justify-content: space-between;
-    height: 5rem; }
+    height: 5rem;
+    align-items: center; }
+    #main-footer .footer-content .social .fab {
+      margin-right: 1rem;
+      border: 2px #fff solid;
+      border-radius: 50%;
+      height: 20%;
+      width: 20%;
+      line-height: 20%;
+      text-align: center;
+      padding: 0.5rem; }
