@@ -149,6 +149,7 @@ img {
       grid-gap: 1.5rem;
       text-align: center;
 
+      // Process - Step
       &-step {
         position: absolute;
         top: 0;
@@ -161,6 +162,27 @@ img {
         line-height: 15px;
         padding: 1rem;
         transition: all 1s;
+      }
+
+      //Process-icon
+      &-icon {
+        border-radius: 50%;
+        background: $dark-color;
+        color: #fff;
+        padding: 2rem;
+        width: 70px;
+        height: 70px;
+        line-height: 70px;
+        text-align: center;
+        position: relative;
+        transition: all 1s;
+
+        &:hover {
+          background: $main-color;
+          width: 90px;
+          height: 90px;
+          line-height: 90px;
+        }
       }
     }
   }
