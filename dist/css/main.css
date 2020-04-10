@@ -248,6 +248,9 @@ img {
   color: #ffbc00;
   margin: 1rem; }
 
+#about-b .progress {
+  overflow: hidden; }
+
 #main-footer {
   background: #333;
   color: #fff;

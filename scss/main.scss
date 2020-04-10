@@ -202,6 +202,7 @@ img {
 }
 
 // About Sections
+// About A
 #about {
   &-a {
     .about-info {
@@ -240,6 +241,12 @@ img {
     .award-3 .fas {
       color: $main-color;
       margin: 1rem;
+    }
+  }
+  // About B
+  &-b {
+    .progress {
+      overflow: hidden;
     }
   }
 }
