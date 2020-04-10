@@ -228,6 +228,11 @@ img {
 #about-a .bio-image {
   grid-area: bioimage; }
 
+#about-a .bio {
+  grid-area: bio;
+  border-left: 3px solid #ffbc00;
+  padding: 0.8rem; }
+
 #main-footer {
   background: #333;
   color: #fff;
