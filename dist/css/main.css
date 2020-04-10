@@ -233,6 +233,21 @@ img {
   border-left: 3px solid #ffbc00;
   padding: 0.8rem; }
 
+#about-a .award-1 {
+  grid-area: aw1; }
+
+#about-a .award-2 {
+  grid-area: aw2; }
+
+#about-a .award-3 {
+  grid-area: aw3; }
+
+#about-a .award-1 .fas,
+#about-a .award-2 .fas,
+#about-a .award-3 .fas {
+  color: #ffbc00;
+  margin: 1rem; }
+
 #main-footer {
   background: #333;
   color: #fff;
