@@ -90,6 +90,13 @@ img {
       }
     }
   }
+
+  // Header Inner
+  &-inner {
+    background: $bg-image no-repeat 20% 30% / cover;
+    height: 5.5rem;
+    border-bottom: 3px solid $main-color;
+  }
 }
 
 // Home Sections
@@ -190,6 +197,24 @@ img {
           }
         }
       }
+    }
+  }
+}
+
+// About Sections
+#about {
+  &-a {
+    .about-info {
+      display: grid;
+      grid-template-areas:
+        "bio-image bio bio"
+        "aw1 aw2 aw3";
+      grid-gap: 1.2rem;
+    }
+
+    // Grid Area
+    .bio-image {
+      grid-area: bioimage;
     }
   }
 }
