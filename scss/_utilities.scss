@@ -47,7 +47,7 @@ input[class^="btn-"]:hover {
     color: set-text-color($main-color);
   }
   &-dark {
-    background: $main-color;
+    background: $dark-color;
     color: set-text-color($dark-color);
   }
   &-light {
