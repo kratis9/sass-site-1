@@ -462,6 +462,8 @@ img {
       border: none;
       margin-bottom: 0;
       padding-bottom: 0; }
+  #contact-c h1 {
+    font-size: 2rem; }
   #main-footer {
     height: 7rem; }
     #main-footer .footer-content {

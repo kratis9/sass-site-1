@@ -111,6 +111,12 @@
         }
       }
     }
+
+    &-c {
+      h1 {
+        font-size: 2rem;
+      }
+    }
   }
 
   // Footer
@@ -123,4 +129,13 @@
       height: 5rem;
     }
   }
+}
+
+// Landcape
+@media (max-height: 580px) {
+    #header-home {
+        .header-content {
+            padding-top:
+        }
+    }
 }
